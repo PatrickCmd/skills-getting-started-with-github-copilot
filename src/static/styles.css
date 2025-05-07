@@ -136,6 +136,30 @@ button:hover {
   display: none;
 }
 
+.participants {
+  margin-top: 0.5em;
+  /* Remove left margin and use padding for proper alignment */
+  margin-left: 0;
+  padding-left: 20px;
+  list-style-position: inside;
+}
+
+.participant-badge {
+  display: inline-block;
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 0.2em 0.5em;
+  border-radius: 5px;
+  margin: 0.1em;
+  font-size: 0.9em;
+}
+
+.participant-item {
+  margin-bottom: 0.3em;
+  font-size: 0.95em;
+  color: #333;
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
